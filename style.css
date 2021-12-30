@@ -1,0 +1,50 @@
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
+form {
+    background-color: rgb(233, 233, 229);
+    padding: 15px 0px 15px 15px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    font-size: 35;
+    font-family: impact;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0px 2px 0 #000,
+        2px 0px 0 #000,
+        0px -2px 0 #000,
+        -2px 0px 0 #000,
+        2px 2px 5px #000;
+
+    width: 500px;
+    padding: 0px 0px 15px 15px;
+}
+
+img {
+    width:100%;
+}
+
+.top-text {
+    position: absolute;
+    top: 2%;
+    width: 100%;
+}
+
+.bottom-text {
+    position: absolute;
+    top: 74%;
+    width: 100%;
+}
+
+.remove-button {
+    margin-top: 5px;
+}
