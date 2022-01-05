@@ -6,6 +6,12 @@ body {
 form {
     background-color: rgb(233, 233, 229);
     padding: 15px 0px 15px 15px;
+    line-height: 28px;
+}
+input {
+    position: absolute;
+    left: 10em;
+    width: 80%;
 }
 .container {
     position: relative;
@@ -27,6 +33,7 @@ form {
 
     width: 500px;
     padding: 0px 0px 15px 15px;
+    display: inline-block;
 }
 
 img {
