@@ -1,13 +1,12 @@
 function submitMeme(event) {
     event.preventDefault();
-    console.log("Submitted!");
     const imageUrl = Object.values(event.target).find(element => element.id === "imageUrl").value;
     const topText = Object.values(event.target).find(element => element.id === "topText").value;
     const bottomText = Object.values(event.target).find(element => element.id === "bottomText").value;
-
     const newMeme = createMemeElement(imageUrl, topText, bottomText)
     const memeList = document.getElementById("memeList");
     memeList.append(newMeme);
+    event.target.reset();
 }
 
 function createMemeElement(imageUrl, topText, bottomText) {
@@ -52,8 +51,6 @@ function createMemeElement(imageUrl, topText, bottomText) {
 
     return newMeme;
 }
-
-
 
 function removeMeme(event) {
     console.log(event);
